@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Thanks for visiting the website. Please leave your comment below.</h3>
+    <form action="http://jenniferterrywatson.com/form.php" method="post">
+        <p>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="First and Last Name">
+        </p>
+        <p>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+        </p>
+        <p>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email">
+        </p>
+        <p>
+            <label for="likeit">Do you like our website?</label>
+            <input type="radio" id="option-yes" name="option" value="yes">
+            <label for="option-yes">Yes</label>
+
+            <input type="radio" id="option-no" name="option" value="no">
+            <label for="option-no">No</label>
+
+            <input type="radio" id="option-maybe" name="option" value="maybe">
+            <label for="option-maybe">Maybe</label>
+
+        </p>
+        <p>        
+        <label for="option">How did you find us?</label>
+        <select id="how" name="how">
+        <option disabled selected>--Please select--</option>
+        <option value="google">Google</option>
+        <option value="yahoo">Yahoo</option>
+        <option value="link">Link from website</option>
+        <option value="word">Word of mouth</option>
+        <option value="other">Other</option>
+        </select>
+        </p>
+        <p>
+            <p>
+            <label for="comments">Comments:</label>
+            </p>
+            <textarea id="comments" name="comments" rows="10" cols="40"></textarea>
+        </p>
+        <button type="submit">Send It</button>
+    </form>
+</body>
+</html>
